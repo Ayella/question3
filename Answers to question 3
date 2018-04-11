@@ -1,0 +1,29 @@
+A declaration for an array for  50 type long values..
+ Long values[50];
+ 
+ 
+ 
+ Statement  to assign the value 123456 to 50th element...
+ Long values[49]= 123456;
+ 
+ for (x = 0; x < 100; x++)
+ x is 100
+ 
+ 
+ for(ctr = 2; ctr < 10; ctr += 3)
+ ctr is 11
+ 
+  a while statement to count from 1 to 100 by 3s
+  #include<stdio.h>
+  main()
+  {
+  int count = 1;
+  while(count<=100)
+  { printf("%d",count);
+  count+=3;
+  }
+  }
+  
+  for (counter = 1; counter < MAXVALUES; counter++ );
+    printf("\nCounter = %d", counter);
+    The semicolon terminating the for loop causes the the code under the for loop to be executed once  outside of the for loop.
